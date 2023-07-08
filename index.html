@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scientific">
+        <button><a href="index1.html"><img src="image/calculator.svg" alt="">Scientific Calculator </a></button>
+    </div>
+    <div class="simpleCal">
+        <div class="display">
+            <div class="secDisplay" id="display2"></div>
+            <div class="priDisplay" id="display1"></div>
+        </div>
+        <div class="keyPad">
+            <button class="clear" onclick="reset()">AC</button>
+            <button class="delete" onclick="bkSpace()">DC</button>
+            <button class="op" onclick="keypad('%')">%</button>
+            <button class="op" onclick="keypad('/')">/</button>
+            <button onclick="keypad(7)">7</button>
+            <button onclick="keypad(8)">8</button>
+            <button onclick="keypad(9)">9</button>
+            <button class="op" onclick="keypad('*')">X</button>
+            <button onclick="keypad(4)">4</button>
+            <button onclick="keypad(5)">5</button>
+            <button onclick="keypad(6)">6</button>
+            <button class="op" onclick="keypad('-')">-</button>
+            <button onclick="keypad(1)">1</button>
+            <button onclick="keypad(2)">2</button>
+            <button onclick="keypad(3)">3</button>
+            <button class="op" onclick="keypad('+')">+</button>
+            <button class="zero" onclick="keypad(0)">0</button>
+            <button onclick="keypad('.')">.</button>
+            <button class="equals" onclick="equal()">=</button>
+        </div>
+    </div>
+       
+    </div> 
+    <script src="main.js"></script>
+</body>
+</html>

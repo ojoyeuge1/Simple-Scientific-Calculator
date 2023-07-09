@@ -71,6 +71,7 @@ body{
     text-align: right;
     font-size: 1.7em;  
     padding-right: 5px;
+    overflow: hidden;
 }
 
 .keyPad{
@@ -142,6 +143,7 @@ body{
 
     .simpleCal .display .secDisplay, .simpleCal .display .priDisplay{
         padding-right: 5px;
+        overflow: hidden;
     }
     .simpleCal button{
         width: 20%;
